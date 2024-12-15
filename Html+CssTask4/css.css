@@ -1,0 +1,41 @@
+*{
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+}
+.var{
+    color: blue;
+}
+.value{
+    color: green;
+}
+code pre{
+    margin-left: 0px;
+}
+.dir{
+    direction: rtl;
+    text-align: right;
+}
+.task2p{
+    font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.task2p1{
+    
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  text-align: right;
+}
+nav{
+    
+    text-align: center;
+    font-weight: 500;
+}
+nav a{
+    text-decoration: none;
+    margin-left: 25px;
+}

@@ -1,0 +1,25 @@
+nav {
+    text-align: center;
+    font-weight: 500;   
+
+  }
+  nav a {
+    text-decoration: none;
+    margin-left: 25px;
+  }
+  .container{
+    display: flex;
+  }
+  .container div{
+    margin-top:50px ;
+    width: 100px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-align: center;
+
+    padding: 5px;
+    box-shadow :1.5px 0px rgb(109, 107, 107) ;
+    font-weight: 300;
+  }
