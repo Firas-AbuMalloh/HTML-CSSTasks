@@ -1,0 +1,45 @@
+@media screen and (max-width:425px){
+
+    .divHeader h1{
+        font-size: 23px;
+        width: 400px;
+    }
+
+    .divHeader p {
+        width: 100%;
+    }
+
+    .container p {
+        padding: 0px 15px;
+    }
+    
+
+    .cards {
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 100%;
+        padding-bottom: 60px;
+        align-items:center;
+        gap:0px;
+    }
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .contactUs ,.abouttUs {
+        width: 100%;
+    }
+
+}
+
+
+@media screen and (max-width:320px){
+
+    .card2 , .card1,.card3 {
+
+        width: 270px;
+
+    }
+
+}
