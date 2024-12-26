@@ -1,0 +1,228 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+header {
+  background-color: #35736e;
+  height: 666px;
+  width: 100%;
+  padding-top: 20px;
+}
+
+nav ul li {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+nav ul li:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffd748;
+  text-decoration-thickness: 3px;
+}
+nav ul li:active {
+  text-decoration: underline;
+  text-decoration-color: #ffd748;
+  text-decoration-thickness: 3px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18.67px;
+  font-family: "poppins";
+  font-weight: 400;
+  margin-right: 10px;
+}
+.navBarDiv {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.leftLogo {
+  font-family: "post No bills colombo ExtraBold";
+  font-size: 51.33px;
+  color: #ffd748;
+  font-family: "post No bills colombo ExtraBold";
+  margin-left: 32.67px;
+}
+.navBarDiv a {
+  text-decoration: none;
+}
+
+ul {
+  display: flex;
+  margin-right: 100px;
+}
+
+.rightLogo {
+  margin-left: 70px;
+}
+.hero {
+  margin-top: 220px;
+  margin-left: 90px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.hero h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 51.33px;
+}
+.hero input {
+  margin-top: 50px;
+}
+.btn1 {
+  background-color: #ffd748;
+  border-radius: 28px;
+  width: 150px;
+  height: 50px;
+  font-weight: 400;
+  font-family: "poppins";
+  font-size: 19px;
+  border: none;
+}
+.btn2 {
+  background: transparent;
+  border-radius: 28px;
+  width: 150px;
+  height: 50px;
+  margin-left: 10px;
+  font-weight: 400;
+  font-family: "poppins";
+  font-size: 19px;
+  border-color: white;
+}
+
+.imgsHeaders {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.imgsHeaders .firstimg {
+  position: absolute;
+  right: 305px;
+  width: 756px;
+  height: 543px;
+}
+.imgsHeaders .dots {
+  position: absolute;
+
+  right: 290px;
+  bottom: 190px;
+}
+.mainDiv {
+  display: flex;
+  margin-top: 75px;
+  width: 100%;
+  flex-direction: row;
+}
+.firstDiv {
+  margin-left: 92.4px;
+  width: 200px;
+  margin-right: 90px;
+}
+.mainbtn {
+  background-color: #35736e;
+  color: white;
+  width: 150px;
+  height: 44px;
+  border-radius: 28px;
+}
+.mainDiv h2 {
+  margin-bottom: 0px;
+  font-family: "poppins";
+  font-size: 32px;
+  font-weight: 600;
+}
+.mainDiv p {
+  margin-top: 0px;
+  font-size: 14px;
+}
+.card {
+  background-color: #35736e1a;
+  width: 275px;
+  height: 269px;
+  border-radius: 18.67px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: center;
+}
+.card .contant img {
+  width: 176px;
+  height: 230px;
+  top: -70px;
+  position: relative;
+}
+.contant {
+  text-align: center;
+  justify-content: center;
+}
+.paragraghdis {
+  position: relative;
+  bottom: 50px;
+}
+.whyChooseUs {
+  margin-top: 200px;
+  margin-left: 92.4px;
+  display: flex;
+}
+.whyPart1 {
+  width: 50%;
+}
+.whyPart2 .imgpart2 {
+  position: relative;
+  left: 75px;
+  top: -125px;
+}
+
+.text-content h1 {
+  size: 52px;
+  font-family: serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: #eff2f1;
+}
+
+.testimonials {
+  justify-items: center;
+}
+
+.testimonials .row {
+  align-items: center;
+}
+
+.testimonials h2 {
+  font-family: "Poppins", serif;
+  font-size: 31.73px;
+  font-weight: 600;
+  line-height: 38.27px;
+  margin-bottom: 41.27px;
+}
+
+.testimonials p {
+  font-family: "Inter", serif;
+  font-size: 16.8px;
+  font-weight: 400;
+  line-height: 29.87px;
+  width: 708.4px;
+  text-align: center;
+  color: black;
+}
+
+.testimonials button {
+  width: 54.13px;
+  height: 50.94px;
+  border-radius: 50%;
+  background-color: rgba(106, 106, 106, 10%);
+  color: black;
+}
+
+.testimonials button:hover {
+  background-color: rgba(255, 215, 72, 1);
+}
